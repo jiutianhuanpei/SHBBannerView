@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "shenhongbang" => "shenhongbang@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/jiutianhuanpei/SHBBannerView.git", :tag => "0.0.1" }
-  s.source_files  = "SHBBannerView/*"
+  s.source       = { :git => "https://github.com/jiutianhuanpei/SHBBannerView.git", :tag => "#{s.version}" }
+  s.source_files  = "SHBBannerView/*.{h,m}"
   s.frameworks = "UIKit"
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/SDWebImage" }
   s.dependency 'SDWebImage', '~> 4.1.0'
