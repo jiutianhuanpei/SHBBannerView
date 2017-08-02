@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.source_files  = "SHBBannerView/*"
   s.frameworks = "UIKit"
   s.dependency "SDWebImage"
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/SDWebImage" }
   s.requires_arc = true
 end
