@@ -7,7 +7,7 @@
 //
 
 #import "SHBBannerView.h"
-#import <UIImageView+WebCache.h>
+#import "UIImageView+WebCache.h"
 #import "UIView+SendActions.h"
 
 @interface _AdItem : UICollectionViewCell
