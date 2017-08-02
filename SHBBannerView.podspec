@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/jiutianhuanpei/SHBBannerView.git", :tag => "0.0.1" }
   s.source_files  = "SHBBannerView/*"
   s.frameworks = "UIKit"
-  s.dependency "SDWebImage"
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SRCROOT)/SDWebImage" }
+  s.dependency 'SDWebImage', '~> 4.1.0'
   s.requires_arc = true
 end
