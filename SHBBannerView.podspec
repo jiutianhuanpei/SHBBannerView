@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SHBBannerView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "一个轮播图解决方案"
   s.description  = <<-DESC
     封装轮播图的实现
