@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author             = { "shenhongbang" => "shenhongbang@163.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/jiutianhuanpei/SHBBannerView.git.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/jiutianhuanpei/SHBBannerView.git", :tag => "0.0.1" }
   s.source_files  = "SHBBannerView/*"
   s.frameworks = "UIKit"
   s.dependency "SDWebImage"
